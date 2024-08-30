@@ -49,6 +49,7 @@
 ## 💝 Thanks to
 
 - [Mintty](https://github.com/mintty/mintty)
+- [Justus0405](https://github.com/Justus0405)
 
 &nbsp;
 
