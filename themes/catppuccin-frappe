@@ -1,0 +1,43 @@
+# source: https://github.com/Justus0405/mintty
+# MIT License
+
+# Text
+ForegroundColour=   198, 208, 245
+CursorColour=       198, 208, 245
+
+# Base
+BackgroundColour=   48,   52,  70
+
+# Surface2
+BoldBlack=          98,  104, 128
+
+# Surface1
+Black=              81,   87, 109
+
+# Red
+BoldRed=            231, 130, 132
+Red=                231, 130, 132
+
+# Green
+BoldGreen=          166, 209, 137
+Green=              166, 209, 137
+
+# Yellow
+BoldYellow=         229, 200, 144
+Yellow=             229, 200, 144
+
+# Blue
+BoldBlue=           140, 170, 238
+Blue=               140, 170, 238
+
+# Mauve
+BoldMagenta=        202, 158, 230
+Magenta=            202, 158, 230
+
+# Teal
+BoldCyan=           129, 200, 190
+Cyan=               129, 200, 190
+
+# Crust
+BoldWhite=          35,   38,  52
+White=              35,   38,  52
