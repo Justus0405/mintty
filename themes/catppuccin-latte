@@ -8,11 +8,9 @@ CursorColour=       76,   79, 105
 # Base
 BackgroundColour=   239, 241, 245
 
-# Surface2
-BoldBlack=          172, 176, 190
-
-# Surface1
-Black=              188, 192, 204
+# Subtext1
+BoldBlack=          92,   95, 119
+Black=              92,   95, 119
 
 # Red
 BoldRed=            210,  15, 57
