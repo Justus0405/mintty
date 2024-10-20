@@ -36,6 +36,10 @@
 
 ## Usage
 
+> [!NOTE]  
+> Some programs like **nano** have issues with the original color theme, to fix this, black and white are swapped in the normal files.
+> To use the original theme, refer to the alt files.
+
 1. Download your desired flavour or clone the repo:
 
     ```shell
