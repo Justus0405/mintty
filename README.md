@@ -37,8 +37,8 @@
 ## Usage
 
 > [!NOTE]  
-> Some programs like **nano** have issues with the original color theme, to fix this, black and white are swapped in the normal files.
-> To use the original theme, refer to the alt files.
+> Some programs like **nano** have issues with the original color theme,
+> to fix this, black and white are swapped
 
 1. Download your desired flavour or clone the repo:
 
@@ -46,7 +46,11 @@
     git clone https://github.com/Justus0405/mintty.git
     ```
 
-2. Copy your desired flavor to the mintty themes folder located at "C:\Program Files\Git\usr\share\mintty\themes"
+2. Copy your desired flavor to the mintty themes folder located at
+
+    ```shell
+    C:\Program Files\Git\usr\share\mintty\themes
+    ```
 3. Open the mintty options by right-clicking the top window bar of your mintty terminal and choosing options
 4. Select your theme, press apply & save
 
