@@ -1,0 +1,41 @@
+---
+whiskers:
+  version: 2.5.1
+  matrix:
+    - flavor
+  filename: "themes/themes-alt/catppuccin-{{flavor.identifier}}-alt"
+---
+
+## name:     Catppuccin Mintty {{ flavor.name }} Alternative
+## author:   Justus0405
+## license:  MIT
+## upstream: https://github.com/Justus0405/mintty/blob/main/themes/themes-alt/catppuccin-{{ flavor.identifier }}-alt
+
+CursorColour=     {{ rosewater | css_rgb }}
+
+BackgroundColour= {{ base | css_rgb }}
+ForegroundColour= {{ text | css_rgb }}
+
+BoldBlack=        {% if flavor.dark %}{{ surface2 | css_rgb }}{% else %}{{ subtext0 | css_rgb }}{% endif %}
+Black=            {% if flavor.dark %}{{ surface1 | css_rgb }}{% else %}{{ subtext1 | css_rgb }}{% endif %}
+
+BoldRed=          {{ red | css_rgb }}
+Red=              {{ red | css_rgb }}
+
+BoldGreen=        {{ green | css_rgb }}
+Green=            {{ green | css_rgb }}
+
+BoldYellow=       {{ yellow | css_rgb }}
+Yellow=           {{ yellow | css_rgb }}
+
+BoldBlue=         {{ blue | css_rgb }}
+Blue=             {{ blue | css_rgb }}
+
+BoldMagenta=      {{ mauve | css_rgb }}
+Magenta=          {{ mauve | css_rgb }}
+
+BoldCyan=         {{ teal | css_rgb }}
+Cyan=             {{ teal | css_rgb }}
+
+BoldWhite=        {% if flavor.dark %}{{ subtext0 | css_rgb }}{% else %}{{ surface1 | css_rgb }}{% endif %}
+White=            {% if flavor.dark %}{{ subtext1 | css_rgb }}{% else %}{{ surface2 | css_rgb }}{% endif %}
